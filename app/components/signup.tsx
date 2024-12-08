@@ -1,4 +1,5 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 const Signup = () => {
   return (
@@ -8,7 +9,9 @@ const Signup = () => {
          <h1 className='font-sans mt-28 text-4xl mb-10'>Join the club and get the benefits</h1>
         </div>
         <p className='flex justify-center text-center'>Sign up for our newsletter and receive
-             exclusive offers</p> <p className='flex justify-center text-center'>on new ranges, sales, pop up stores and more</p>
+             exclusive offers</p> 
+             
+             <p className='flex justify-center text-center'>on new ranges, sales, pop up stores and more</p>
 
              <div className='flex justify-center items-center m-20'>
                 <input type="text" placeholder='your@email.com' className='p-5 ml-10'/>
@@ -41,7 +44,7 @@ const Signup = () => {
        
     {/* Right Image */}
     <div className="md:w-1/2 h-[100%] flex justify-center mt-9 md:mt-0 p-10">
-      <img
+      <Image
         src="/flawer.png" // Replace with the actual image path
         alt="flawer"
         width={500}
