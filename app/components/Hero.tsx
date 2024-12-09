@@ -1,4 +1,5 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 const Hero = () => {
   return (
@@ -23,10 +24,12 @@ const Hero = () => {
        
     {/* Right Image */}
     <div className="md:w-1/2 h-[100%] flex justify-center mt-9 md:mt-0 bg-green-100 p-10">
-      <img
-        src="chair.png" // Replace with the actual image path
+      <Image
+        src="/chair.png" 
         alt="Stylish Chair"
-        className="max-w-full h-auto "
+        width={100}
+        height={100}
+        className="max-w-full h-[100px] "
       />
     </div>
     </section>

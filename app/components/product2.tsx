@@ -22,7 +22,7 @@ import React from 'react'
     
 
     <p className='text-xl m-2'>  
-    <Image src="/old.png" alt="chair" width={250}  className='pb-7'/>
+    <Image src="/old.png" alt="chair" width={250} height={100} className='pb-7'/>
     The Silky Vase<br/>
     <span className='"pt-2'>$125</span></p>
     

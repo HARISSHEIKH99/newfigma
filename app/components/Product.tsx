@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
  export const Product = () => {
@@ -7,27 +8,27 @@ import React from 'react'
         <h3 className='flex justify-start mt-20 mb-5 ml-40 text-2xl text-blue-950'>New Caramics</h3>
    <div className='flex flex-row gap-20 justify-center' >
     <p className='text-xl m-2'>  
-    <img src="/kursi.png" alt="chair" width={200} className='pb-5' />
+    <Image src="/kursi.png" alt="chair" width={200} height={100} className='pb-5' />
     The Dandy Cair
-    <p className='pt-2'>$260</p>
+    <span className='pt-2'>$260</span>
     </p>
     
     <p className='text-xl m-2'>  
-    <img src="/vase.png" alt="chair" width={200} className='pb-5' />
+    <Image src="/vase.png" alt="chair" width={200} height={100} className='pb-5' />
     Rustic Vase Set
-    <p className='pt-2'>$155</p>
+    <span className='pt-2'>$155</span>
     </p>
 
     <p className='text-xl m-2'>  
-    <img src="/lamp.png" alt="chair" width={200}  className='pb-7'/>
+    <Image src="/lamp.png" alt="chair" width={200} height={100} className='pb-7'/>
     The Silky Vase
-    <p className='pt-2'>$125</p>
+    <span className='pt-2'>$125</span>
     </p>
 
     <p className='text-xl m-2'>  
-    <img src="/silky.png" alt="chair" width={200} className='pb-6' />
+    <Image src="/silky.png" alt="chair" width={200} height={100} className='pb-6' />
     The Lucky Lamp
-    <p className='pt-2'>$339</p>
+    <span className='pt-2'>$339</span>
     </p>
     </div>
     <div className='mt-5 flex justify-center pt-10 pb-40'>
