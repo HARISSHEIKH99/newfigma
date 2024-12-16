@@ -12,7 +12,7 @@ const Header = () => {
                     <h1 className='text-xl'>
                         <Link href="/">Avion</Link>
                     </h1>
-                    <div className='flex gap-2'> <IoCartOutline /> <IoPersonCircleOutline />
+                    <div className='flex gap-2'><Link href="/card"> <IoCartOutline /></Link> <IoPersonCircleOutline />
                     </div>
 
                 </div>
@@ -23,7 +23,7 @@ const Header = () => {
                         <li><Link href="/">Plant Pots</Link></li>
                         <li><Link href="/">Ceramics</Link></li>
                         <li><Link href="/">Tables</Link></li>
-                        <li><Link href="/">Cairs</Link></li>
+                        <li><Link href="/chairs">Chairs</Link></li>
                         <li><Link href="/">Crokery</Link></li>
                         <li><Link href="/">TableWare</Link></li>
                         <li><Link href="/">Cutlery</Link></li>

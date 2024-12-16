@@ -7,7 +7,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-     <footer className="bg-blue-950 text-white py-10">
+     <footer className="bg-[#2A254B] text-white py-10">
     <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
       {/* Menu */}
       <div>
